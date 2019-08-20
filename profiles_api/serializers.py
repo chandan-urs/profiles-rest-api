@@ -29,6 +29,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
         )
         return user
 
+
 class ProfileFeedItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.ProfileFeedItem
